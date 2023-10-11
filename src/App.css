@@ -1,0 +1,42 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #2c3e50; /* Darker background for contrast */
+  color: #ecf0f1; /* Light text for contrast */
+}
+
+.login-dialog {
+  background-color: #ecf0f1; /* Lighter background for dialog */
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 8px;
+  width: 200px;
+  border: 1px solid #7f8c8d; /* Subtle border for inputs */
+  border-radius: 4px; /* Rounded corners for inputs */
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+  background-color: #27ae60; /* Green background for button */
+  color: #ecf0f1; /* Light text for button */
+  border: none; /* Remove border for button */
+  border-radius: 4px; /* Rounded corners for button */
+}
+
+button:hover {
+  background-color: #2ecc71; /* Lighter green for button hover */
+}
+
+.error {
+  color: #e74c3c; /* Red color for error message */
+  margin-top: 10px;
+}
